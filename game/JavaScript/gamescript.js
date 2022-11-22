@@ -1,7 +1,4 @@
 var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
  setInterval(function () 
        { var audio = document.getElementById("audio");
         audio.play();}
