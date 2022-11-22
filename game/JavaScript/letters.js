@@ -45,7 +45,8 @@ var i;
 for(i=0;i<letter.letters.length;i++){
     Arrayofimage[i] = document.createElement("img");
     Arrayofaudio[i] = document.createElement("audio");
-    Arrayofimage[i] .addEventListener("click", playA(i))
+    Arrayofimage[i] .addEventListener("click", playA(i));
+    Arrayofimage[i].ClassName = "images"
     divs.appendChild(Arrayofimage[i]);
     divs.appendChild(Arrayofaudio[i]);
 }
