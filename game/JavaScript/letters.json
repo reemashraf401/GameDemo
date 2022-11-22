@@ -1,5 +1,4 @@
-{"letters" : [ {"LetterName":"A","value":"A","audioSrc":"audio/A.mp3","imageSrc":"/Assets/LettersPic/a.png"},
-
+{"letters" : [ {"LetterName":"A","value":"A","audioSrc":"/Audio/A.mp3","imageSrc":"/Assets/LettersPic/a.png"},
     {"LetterName":"B","value":"B","audioSrc":"/Audio/B.mp3","imageSrc":"/Assets/LettersPic/b.png"},
     {"LetterName":"C","value":"C","audioSrc":"/Audio/C.mp3","imageSrc":"/Assets/LettersPic/c.png"},
     {"LetterName":"D","value":"D","audioSrc":"/Audio/D.mp3","imageSrc":"/Assets/LettersPic/d.png"},
