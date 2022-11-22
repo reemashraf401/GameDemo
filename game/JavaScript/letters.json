@@ -1,31 +1,5 @@
-{"letters" : [ {"LetterName":"A","value":"A","audioSrc":"audio/A.mp3","imageSrc":"/Assets/LettersPic/a.png"},
-<<<<<<< HEAD
-    {"LetterName":"B","value":"B","audioSrc":"/audio/B.mp3","imageSrc":"/Assets/LettersPic/b.png"},
-    {"LetterName":"C","value":"C","audioSrc":"/audio/C.mp3","imageSrc":"/Assets/LettersPic/c.png"},
-    {"LetterName":"D","value":"D","audioSrc":"/audio/D.mp3","imageSrc":"/Assets/LettersPic/d.png"},
-    {"LetterName":"E","value":"E","audioSrc":"/audio/E.mp3","imageSrc":"/Assets/LettersPic/e.png"},
-    {"LetterName":"F","value":"F","audioSrc":"/audio/F.mp3","imageSrc":"/Assets/LettersPic/f.png"},
-    {"LetterName":"G","value":"G","audioSrc":"audio/G.mp3","imageSrc":"/Assets/LettersPic/g.png"},
-    {"LetterName":"H","value":"H","audioSrc":"audio/H.mp3","imageSrc":"/Assets/LettersPic/h.png"},
-    {"LetterName":"I","value":"I","audioSrc":"audio/I.mp3","imageSrc":"/Assets/LettersPic/i.png"},
-    {"LetterName":"J","value":"J","audioSrc":"audio/J.mp3","imageSrc":"/Assets/LettersPic/j.png"},
-    {"LetterName":"K","value":"K","audioSrc":"audio/K.mp3","imageSrc":"/Assets/LettersPic/k.png"},
-    {"LetterName":"L","value":"L","audioSrc":"audio/L.mp3","imageSrc":"/Assets/LettersPic/l.png"},
-    {"LetterName":"M","value":"M","audioSrc":"audio/M.mp3","imageSrc":"/Assets/LettersPic/m.png"},
-    {"LetterName":"N","value":"N","audioSrc":"audio/N.mp3","imageSrc":"/Assets/LettersPic/n.png"},
-    {"LetterName":"O","value":"O","audioSrc":"audio/O.mp3","imageSrc":"/Assets/LettersPic/o.png"},
-    {"LetterName":"P","value":"P","audioSrc":"audio/P.mp3","imageSrc":"/Assets/LettersPic/p.png"},
-    {"LetterName":"Q","value":"Q","audioSrc":"audio/Q.mp3","imageSrc":"/Assets/LettersPic/q.png"},
-    {"LetterName":"R","value":"R","audioSrc":"audio/R.mp3","imageSrc":"/Assets/LettersPic/r.png"},
-    {"LetterName":"S","value":"S","audioSrc":"audio/S.mp3","imageSrc":"/Assets/LettersPic/s.png"},
-    {"LetterName":"T","value":"T","audioSrc":"audio/T.mp3","imageSrc":"/Assets/LettersPic/t.png"},
-    {"LetterName":"U","value":"U","audioSrc":"audio/U.mp3","imageSrc":"/Assets/LettersPic/u.png"},
-    {"LetterName":"V","value":"V","audioSrc":"audio/V.mp3","imageSrc":"/Assets/LettersPic/v.png"},
-    {"LetterName":"W","value":"W","audioSrc":"audio/W.mp3","imageSrc":"/Assets/LettersPic/w.png"},
-    {"LetterName":"X","value":"X","audioSrc":"audio/X.mp3","imageSrc":"/Assets/LettersPic/x.png"},
-    {"LetterName":"Y","value":"Y","audioSrc":"audio/Y.mp3","imageSrc":"/Assets/LettersPic/y.png"},
-    {"LetterName":"Z","value":"Z","audioSrc":"audio/Y.mp3","imageSrc":"/Assets/LettersPic/z.png"}],
-=======
+{"letters" : [ {"LetterName":"A","value":"A","audioSrc":"/Audio/A.mp3","imageSrc":"/Assets/LettersPic/a.png"},
+
     {"LetterName":"B","value":"B","audioSrc":"/Audio/B.mp3","imageSrc":"/Assets/LettersPic/b.png"},
     {"LetterName":"C","value":"C","audioSrc":"/Audio/C.mp3","imageSrc":"/Assets/LettersPic/c.png"},
     {"LetterName":"D","value":"D","audioSrc":"/Audio/D.mp3","imageSrc":"/Assets/LettersPic/d.png"},
@@ -51,8 +25,6 @@
     {"LetterName":"X","value":"X","audioSrc":"/Audio/X.mp3","imageSrc":"/Assets/LettersPic/x.png"},
     {"LetterName":"Y","value":"Y","audioSrc":"/Audio/Y.mp3","imageSrc":"/Assets/LettersPic/y.png"},
     {"LetterName":"Z","value":"Z","audioSrc":"/Audio/Y.mp3","imageSrc":"/Assets/LettersPic/z.png"}],
->>>>>>> 07229a39cc96e6cbdf161fecdbec67a81a795427
-
     "words" : [{"word":"Apple","value":"Apple","audioSrc":"/Audio/apple.mp3","imageSrc":"/Assets/wordsPic/apple.png"},
     {"LetterName":"Ball","value":"Ball","audioSrc":"/Audio/ball.mp3","imageSrc":"/Assets/wordsPic/ball.png"},
     {"LetterName":"Candy","value":"Candy","audioSrc":"/Audio/candy.mp3","imageSrc":"/Assets/wordsPic/candy.png"},
@@ -79,4 +51,3 @@
     {"LetterName":"Xylophone","value":"Xylophone","audioSrc":"/Audio/xylophone.mp3","imageSrc":"/Assets/wordsPic/xylophone.png"},
     {"LetterName":"Yacht","value":"Yacht","audioSrc":"/Audio/yacht.mp3","imageSrc":"/Assets/wordsPic/yacht.png"},
     {"LetterName":"Zipper","value":"Zipper","audioSrc":"/Audio/zipper.mp3","imageSrc":"/Assets/wordsPic/zipper.png"}]}
-
