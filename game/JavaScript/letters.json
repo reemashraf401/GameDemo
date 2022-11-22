@@ -30,7 +30,7 @@
     {"LetterName":"Candy","value":"Candy","audioSrc":"audio/C.mp3","imageSrc":"/Assets/wordsPic/candy1.png"},
     {"LetterName":"Duck","value":"Duck","audioSrc":"audio/D.mp3","imageSrc":"/Assets/wordsPic/duck.png"},
     {"LetterName":"Elephant","value":"Elephant","audioSrc":"audio/E.mp3","imageSrc":"/Assets/wordsPic/elephant1.png"},
-    {"LetterName":"Flower","value":"Flower","audioSrc":"audio/F.mp3","imageSrc":"#"},
+    {"LetterName":"Flower","value":"Flower","audioSrc":"audio/F.mp3","imageSrc":""},
     {"LetterName":"Grape","value":"Grape","audioSrc":"audio/G.mp3","imageSrc":"#"},
     {"LetterName":"Horse","value":"Horse","audioSrc":"audio/H.mp3","imageSrc":"#"},
     {"LetterName":"Icecream","value":"Icecream","audioSrc":"audio/I.mp3","imageSrc":"#"},
