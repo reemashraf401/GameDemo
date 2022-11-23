@@ -1,3 +1,25 @@
+.myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*Add some content at the bottom of the video/page */
+.content {
+position: fixed;
+color: #f1f1f1;
+margin: auto;
+ width: 84%; 
+ margin-top: 20%;
+ margin-left: 8%;
+/* padding: 20px; */
+}
 img{
-    width:50px;
+    width: 300px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+
 }

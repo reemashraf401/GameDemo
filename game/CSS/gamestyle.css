@@ -1,5 +1,5 @@
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
+
+.myVideo {
         object-fit: cover;
         width: 100vw;
         height: 100vh;
@@ -32,3 +32,12 @@
     background: #ddd;
     color: black;
   }  
+  img{
+    width: 70px;
+  }
+  #all{
+    width:60%;
+    margin: auto;
+    margin-top: 400px;
+   
+  }

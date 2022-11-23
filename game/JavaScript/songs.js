@@ -33,27 +33,33 @@
 //         "skills" : ["football"]
 //     }
 // ]
-var student = 
-[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"apple.jpg","audio":"a.mp3","enable":"false"},
-{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"noon-logo-en.svg","audio":"child.mp3","enable":"false"}
-]
-var sp = document.getElementById("sp1");
-var image = document.getElementById("im1");
+import letter from './letters.json' assert {type : 'json'};
+// var student = 
+// [{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"apple.jpg","audio":"a.mp3","enable":"false"},
+// {"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"noon-logo-en.svg","audio":"child.mp3","enable":"false"}
+// ]
 var Arrayofaudio = new Array();
 var divs = document.getElementById("divall");
 var Arrayofimage = new Array();
 var i;
-for(i=0;i<student.length;i++){
+for(i=0;i<letter.letters.length;i++){
     Arrayofimage[i] = document.createElement("img");
     Arrayofaudio[i] = document.createElement("audio");
-    Arrayofimage[i] .addEventListener("click", playA(i))
-    // divs.appendChild(Arrayofimage[i]);
-    // divs.appendChild(Arrayofaudio[i]);
+    // Arrayofimage[i] .addEventListener("click", playA(i));
+    // Arrayofimage[i].ClassName = "images"
 }
-
-for(var i=0;i<student.length;i++){
-    Arrayofimage[i].src = student[i]["avatar"]
-    Arrayofaudio[i].src = student[i]["audio"]
+for(i=0;i<letter.letters.length;i++){
+  app(i);
+ 
+  
+}
+function app(i){
+  setTimeout(()=>{
+    divs.appendChild(Arrayofimage[i]);
+    divs.appendChild(Arrayofaudio[i]);
+    Arrayofimage[i].src = letter.letters[i]["imageSrc"]
+    Arrayofaudio[i].src = letter.letters[i]["audioSrc"]
+  },3000)
 }
 function playA(img){
     return function() {
@@ -63,11 +69,6 @@ function playA(img){
    
     // .currentTarget.style.opacity=0.0;
   }
-  setInterval(function () {element.innerHTML += "Hello"}, 1000);
-    setInterval(function(){
-        for(i=0;i<student.length;i++){
-            divs.appendChild(Arrayofimage[i]);
-              divs.appendChild(Arrayofaudio[i]);
-        }
-        },1000)
-  
+  function songs(){
+    
+  }
