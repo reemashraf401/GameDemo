@@ -1,0 +1,49 @@
+body{
+    background-image: url(image/5cgl_j237_220304.jpg);
+    background-size: cover;
+}
+#calc{
+    margin-top: 20px;
+    padding: 10px;
+    margin: auto;
+    width: 472px;
+    height: 476px;
+    background-color: #9f8a8d;
+    border-radius: 1%;
+}
+#inputt{
+    width: 417px;
+    height: 76px;
+    margin-top: 26px;
+    font-size: 35px;
+    box-shadow: 0px 2px 1px 0px;
+    border: 1px solid transparent;
+    cursor:auto;
+}
+#cl{
+margin-left: 20px;
+}
+input{
+    width: 101px;
+    height: 76px;
+    margin-left: 3px;
+    margin-top: 10px;
+    font-size: 30px;
+    box-shadow: 0px 2px 2px 0px;
+    cursor: pointer;
+}
+.in{
+    background-color: #ffff81;
+    border: 1px solid transparent;
+}
+.in:hover{
+    background-color: #fcfc3f;
+}
+#pl{
+    background-color: #fd9fa9;
+    border: 1px solid transparent;   
+}
+#pl:hover{
+    background-color: #eb5463;
+}
+

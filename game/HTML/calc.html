@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="/image/calculator.png">
+    <link rel="stylesheet" href="../CSS/calc.css">
+</head>
+<body>
+    <div id="calc">
+         <div id="cl" class="cun">
+            <input type="text" id="inputt"/>
+            <input type="button" value="1" onclick="dis('1')"/>
+            <input type="button" value="2" onclick="dis('2')"/>
+            <input type="button" value="3" onclick="dis('3')"/>
+            <input type="button" value="+" class="in" onclick="dis('+')"/>
+
+
+            <input type="button" value="4" onclick="dis('3')"/>
+            <input type="button" value="5" onclick="dis('5')"/>
+            <input type="button" value="6" onclick="dis('6')"/>
+            <input type="button" value="-" class="in" onclick="dis('-')"/>
+
+
+            <input type="button" value="7" onclick="dis('7')"/>
+            <input type="button" value="8"onclick="dis('8')"/>
+            <input type="button" value="9" onclick="dis('9')"/>
+            <input type="button" value="*" class="in" onclick="dis('*')"/>
+
+
+            <input type="button" value="c" id="pl" onclick="clea()" />
+            <input type="button" value="0" onclick="dis('0')"/>
+            <input type="button" value="=" onclick="equal()"/>
+            <input type="button" value="/" class="in" onclick="dis('/')"/>
+
+
+         </div> 
+    </div>
+    
+    <script src="../JavaScript/calc.js"></script>
+</body>
+</html>

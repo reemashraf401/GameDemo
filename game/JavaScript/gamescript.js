@@ -3,11 +3,18 @@ var video = document.getElementById("myVideo");
        { var audio = document.getElementById("audio");
         audio.play();}
        , 10);
-// Pause and play the video, and change the button text
-//   if (video.paused) {
-//     video.pause();
-//     btn.innerHTML = "Pause";
-//   } else {
-//     video.pause();
-//     btn.innerHTML = "Play";
-//   }
+
+// const states = {
+//       'default': "/Assets/push-button.gif"
+//     };
+//     let img = document.querySelector('#hover-img');
+//       img.setAttribute('src', states.default);
+
+ 
+    
+const states2 = {
+      'default': "../Assets/giphy.gif"
+    };
+    let img2 = document.querySelector('#letsplay');
+      img2.setAttribute('src', states2.default);
+  

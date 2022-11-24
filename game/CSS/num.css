@@ -1,0 +1,68 @@
+
+.myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*Add some content at the bottom of the video/page */
+.content {
+position: fixed;
+color: #f1f1f1;
+margin: auto;
+ width: 84%; 
+ margin-top: 10%;
+ margin-left: 8%;
+/* padding: 20px; */
+}
+/*Add some content at the bottom of the video/page */
+
+#ClickNumber
+{
+    width: 100px;
+  /*  margin-left: 0px;
+    margin-bottom: 0px; */
+    position: fixed;
+
+}
+img{
+    width: 130px;
+    margin-left:10%;
+    cursor: pointer;
+}
+  #CalculatorButton:hover{
+    background-color: rgb(239, 118, 118);
+    color:rgb(63, 116, 231);
+  } 
+  
+  .numbersPage {
+    position: fixed;
+    color: #f1f1f1;
+     width: 50%;
+     margin-top: 99px;
+     /* transition: background-image 3s */
+    }
+  
+  #CalculatorButton
+  { position: absolute;
+    background-color: #46868f;
+    width: 291px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 145px;
+    /* margin: auto; */
+    margin-left: 64pc;
+    margin-top: 23pc;
+    /* margin-top: 200px; */
+    font-size: 59px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    border: black solid;
+    border-width: 10px;
+    position: fixed;
+}

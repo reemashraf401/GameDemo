@@ -1,0 +1,16 @@
+#imgbtn{
+
+    width: 70px;
+    height: 70px;
+    
+    }
+    #s{
+        outline: none;
+        border: none;
+    }
+    #s:active{
+        border: 1px solid rgb(218, 140, 39);
+    }
+    #s:focus{
+        border: 1px solid rgb(218, 140, 39);
+    }
