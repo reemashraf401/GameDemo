@@ -18,15 +18,15 @@
     </style>
 </head>
 <body>
-    <video autoplay muted id="myVideo">
+    <video id="myVideo">
         <source src="video/opening.mp4" type="video/mp4">
       </video>
     <meta http-equiv = "refresh" content = " 10 ; url = 'HTML/start.html'"/>
 </body>
 <script>
-  setTimeout(function () 
+  setInterval(function () 
        { var video = document.getElementById("myVideo");
-        video.muted = false;}
-       , 100);
+        video.play()}
+       , 10);
 </script>
 </html>
