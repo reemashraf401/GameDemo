@@ -1,0 +1,120 @@
+/* Style the video: 100% width and height to cover the entire window */
+/*Start page styling*/
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*Add some content at the bottom of the video/page */
+.content {
+position: fixed;
+width: 100%; 
+margin: auto;
+
+}
+
+/* Style the button used to pause/play the video  */
+#myBtn {
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
+}
+
+#myBtn:hover {
+background: #ddd;
+color: black;
+}  
+img{
+width: 70px;
+}
+#all{
+width:60%;
+margin: auto;
+margin-top: 400px;
+
+}
+#SongsButton:hover{
+  background-color: rgb(239, 118, 118);
+  color:rgb(236, 225, 106);
+}
+#NumbersButton:hover{
+  background-color: rgb(239, 118, 118);
+  color:rgb(63, 116, 231);
+} 
+#LettersButton:hover{
+  background-color: rgb(239, 118, 118);
+  color:rgb(106, 236, 119);
+} 
+#letsplay{
+  position: fixed;
+  width:28%;
+  height:58%;
+  margin-left: 35%; 
+
+}
+ #LettersButton
+ {
+  background-color: rgb(106, 236, 119);
+  width: 10%;
+  height: 6.5%;
+  margin-top:33%;
+  font-size:2vw;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: 32%; 
+  border-radius: 6%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border:solid black ;
+  border-width: 6%;
+  position: fixed;
+  cursor: pointer;
+ }
+
+
+#SongsButton
+{
+  cursor: pointer;
+  background-color: rgb(236, 225, 106);
+  width: 10%;
+  height: 6.5%;
+  margin-top:33%;
+  font-size:2vw;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: 46%; 
+  border-radius: 6%;
+  border: black solid;
+  border-width: 6%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  position: fixed;
+}
+#NumbersButton
+{
+  cursor: pointer;
+  background-color: rgb(236, 225, 106);
+  width: 10%;
+  height: 6.5%;
+  margin-top:33%;
+  font-size:2vw;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: 60%; 
+  border-radius: 6%;
+  border: black solid;
+  border-width: 6%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  position: fixed;
+}
