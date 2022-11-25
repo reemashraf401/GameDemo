@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .myVideo {
+        #myVideo {
         object-fit: cover;
         width: 100vw;
         height: 100vh;
@@ -18,9 +18,15 @@
     </style>
 </head>
 <body>
-    <video autoplay class="myVideo">
+    <video autoplay muted id="myVideo">
         <source src="video/opening.mp4" type="video/mp4">
       </video>
     <meta http-equiv = "refresh" content = " 10 ; url = 'HTML/start.html'"/>
 </body>
+<script>
+  setTimeout(function () 
+       { var video = document.getElementById("myVideo");
+        video.muted = false;}
+       , 100);
+</script>
 </html>
