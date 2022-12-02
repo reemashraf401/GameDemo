@@ -1,14 +1,30 @@
-body{
-    background-image: url(image/5cgl_j237_220304.jpg);
-    background-size: cover;
+
+.myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*Add some content at the bottom of the video/page */
+.content {
+position: fixed;
+color: #f1f1f1;
+margin: auto;
+ width: 84%; 
+ margin-top: 4%;
+ margin-left: 8%;
+/* padding: 20px; */
 }
 #calc{
     margin-top: 20px;
     padding: 10px;
     margin: auto;
-    width: 30%;
+    width: 38%;
     height: 30%;
-    background-color: #9f8a8d;
+    background-color: rgba(159, 138, 141,0.7);
     border-radius: 1%;
 }
 #inputt{
@@ -46,4 +62,26 @@ input{
 #pl:hover{
     background-color: #eb5463;
 }
-
+#backbutton{
+    position: fixed;
+color: #f1f1f1;
+margin: auto;
+ width: 8%; 
+ margin-top: 38%;
+ margin-left: 3%;
+  }
+  .myBtn {
+    width: 25%;
+    font-size: 4vh;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 7%;
+ margin-left: 75%;
+    } 
+    .myBtn:hover {
+    background: #ddd;
+    color: black;
+    }  

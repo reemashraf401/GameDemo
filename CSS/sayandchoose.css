@@ -14,3 +14,79 @@
     #s:focus{
         border: 1px solid rgb(218, 140, 39);
     }
+    #win{
+        z-index: 9;
+        position: absolute;
+        display: none;
+        margin-top: -13%;
+        animation: move 6s ease 1 forwards;
+       transition: animation 5s;
+       width: 27%;
+       height: 350px;
+    }
+    .myBtn {
+        width: 200px;
+        font-size: 18px;
+        padding: 10px;
+        border: none;
+        background: #000;
+        color: #fff;
+        cursor: pointer;
+        margin-top: 4%;
+        }
+        
+        .myBtn:hover {
+        background: #ddd;
+        color: black;
+        }  
+    @keyframes move {
+        from {left: -150px;}
+        to {left: 850px;}
+      }
+      #gameover{
+        z-index: 9;
+        position: absolute;
+        display: none;
+        margin-top: -10%;
+        animation: move 6s ease 1 forwards;
+       transition: animation 5s;
+       width: 27%;
+       height: 300px;
+    }
+    .myVideo {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    /*Add some content at the bottom of the video/page */
+    .content {
+    position: fixed;
+    color: #f1f1f1;
+    margin: auto;
+     width: 84%; 
+     margin-top: 8%;
+     margin-left: 8%;
+    /* padding: 20px; */
+    }
+    img{
+        z-index: 3;
+        width: 5%;
+        margin-left: 4%;
+         margin-bottom: 2.5%; 
+         margin-top: 2%;
+         cursor: pointer;
+    
+    }
+    #backbutton{
+        position: fixed;
+    color: #f1f1f1;
+    margin: auto;
+     width: 7%; 
+     margin-top: 41%;
+     margin-left: 3%;
+      }
+    

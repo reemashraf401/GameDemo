@@ -53,6 +53,11 @@ margin-top: 400px;
   background-color: rgb(239, 118, 118);
   color:rgb(106, 236, 119);
 } 
+
+#GamesButton:hover{
+  background-color: rgb(239, 118, 118);
+  color:rgb(106, 236, 119);
+}
 #letsplay{
   position: fixed;
   width:28%;
@@ -70,7 +75,7 @@ margin-top: 400px;
   text-decoration: none;
   color: white;
   text-align: center;
-  margin-left: 32%; 
+  margin-left: 25%; 
   border-radius: 6%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border:solid black ;
@@ -91,7 +96,7 @@ margin-top: 400px;
   text-decoration: none;
   color: white;
   text-align: center;
-  margin-left: 46%; 
+  margin-left: 39%; 
   border-radius: 6%;
   border: black solid;
   border-width: 6%;
@@ -110,7 +115,25 @@ margin-top: 400px;
   text-decoration: none;
   color: white;
   text-align: center;
-  margin-left: 60%; 
+  margin-left: 53%; 
+  border-radius: 6%;
+  border: black solid;
+  border-width: 6%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  position: fixed;
+}
+#GamesButton{
+  cursor: pointer;
+  background-color: rgb(236, 225, 106);
+  width: 10%;
+  height: 6.5%;
+  margin-top:33%;
+  font-size:2vw;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: 67%; 
   border-radius: 6%;
   border: black solid;
   border-width: 6%;

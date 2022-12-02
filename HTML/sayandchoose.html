@@ -1,12 +1,34 @@
-<html><head>
-    <link href="../CSS/sayandchoose.css" rel="stylesheet">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <!-- <link rel="stylesheet" href="../CSS/sayandchoose.css"> -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../CSS/sayandchoose.css"> 
+      <title>Document</title>
+     
     </head>
-    <body id="body">
-      <button id="s" style="display: block; margin-left: 45%; margin-right: 40%;margin-top: 20px;margin-bottom:20px;border-radius: 50%;"><img src="kids.png" id="imgbtn"></button>
-      <audio id="music" ></audio>
-    
-    
-                  
+    <body>
+      <video autoplay muted loop class="myVideo">
+        <source src="../video/background2.mp4" type="video/mp4">
+      </video>
+    <!-- </button> -->
+      <audio id="music">
+        <!-- <source src="audio/bgsound.mp3" type="audio/mpeg">
+        <source src="audio/bgsound.mp3" type="audio/wav"> -->
+    </audio>
+   <div class="content">
+    <div id="body"></div>    
+    <button class="myBtn" id="s">Choose Word</button>
+    <button id="try" class="myBtn">Choose anoter word</button>
+    <img src="/Assets/win.gif" id="win">
+    <img src="/Assets/gameov2.gif" width="30%" id="gameover">
+  </div>
+  <a href="../HTML/letters.html" >
+    <img src="../Assets/backimage.png" id="backbutton">
+     </a>
     <!-- <button style="margin: 15px;" id="spanimg" hidden><img src="b.png" id="imG"></button> -->
     <script src="../JavaScript/sayandchoose.js" type="module"></script>
     </body>

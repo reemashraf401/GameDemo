@@ -13,8 +13,8 @@
 position: fixed;
 color: #f1f1f1;
 margin: auto;
- width: 84%; 
- margin-top: 10%;
+ width: 55%; 
+ margin-top: 4%;
  margin-left: 8%;
 /* padding: 20px; */
 }
@@ -29,9 +29,11 @@ margin: auto;
 
 }
 img{
-    width: 130px;
-    margin-left:10%;
-    cursor: pointer;
+  width: 17%;
+  margin-left: 3.5%;
+   margin-bottom: 1%; 
+   margin-top: 2%;
+cursor: pointer;
 }
   #CalculatorButton:hover{
     background-color: rgb(239, 118, 118);
@@ -49,20 +51,29 @@ img{
   #CalculatorButton
   { position: absolute;
     background-color: #46868f;
-    width: 291px;
+    width: 24%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    height: 145px;
+    height: 18%;
     /* margin: auto; */
-    margin-left: 64pc;
-    margin-top: 23pc;
+    margin-left: 70%;
+    margin-top: 19%;
     /* margin-top: 200px; */
-    font-size: 59px;
+    font-size: 8.5vh;
     cursor: pointer;
     text-decoration: none;
     color: white;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 5vh;
     border: black solid;
-    border-width: 10px;
+    border-width: 1vh;
     position: fixed;
 }
+#backbutton{
+  position: fixed;
+color: #f1f1f1;
+margin: auto;
+width: 7%; 
+margin-top: 40%;
+margin-left: 2.5%;
+}
+

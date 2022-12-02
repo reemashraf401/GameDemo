@@ -1,0 +1,64 @@
+.myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    color: #f1f1f1;
+    margin: auto;
+     width: 84%; 
+     margin-top: 4%;
+     margin-left: 5%;
+    /* padding: 20px; */
+    }
+img{
+    width: 5.5%;
+    margin-left: 3.5%;
+     margin-bottom: 1%; 
+     margin-top: 3%;
+     cursor: pointer;
+}
+#hint{
+    position: fixed;
+color: black;
+margin: auto;
+ margin-left: 40%;
+ margin-top: 2.5%;
+ background-color: rgba(95, 158, 160,0.4);
+ border: 2px black solid;
+ border-radius: 20px;
+ height: 30px;
+ width: 300px;
+ text-align: center;
+ font-size: 28px;
+ padding: 10px;
+}
+#backbutton{
+    position: fixed;
+color: #f1f1f1;
+margin: auto;
+ width: 8%; 
+ margin-top: 38%;
+ margin-left: 3%;
+  }
+  .myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40%;
+ margin-left: 75%;
+    } 
+    .myBtn:hover {
+    background: #ddd;
+    color: black;
+    }  

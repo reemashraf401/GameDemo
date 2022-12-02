@@ -1,54 +1,96 @@
 
 import letter from './letters.json' assert {type : 'json'};
-// var arr=[{"src":"audio/bgsound.mp3","type":"audio/mpeg","srcI":"a.png"},{"src":"audio/horse.mp3","type":"audio/mpeg","srcI":"b.png"}]
-// var arr2=["a.png","b.png","c.png","d.png","e.png","f.png","g.png","h.png","i.png","j.png"]
-// var arr3=[{"src":"audio/bravo.mp3","type":"audio/mpeg"},{"src":"audio/error.mp3","type":"audio/mpeg"}]
-var ra=Math.floor(Math.random()*25);
+var ra=Math.floor(Math.random()*26);
 var y=0;
 var amg;
-var img;
 var na;
+var x;
+var w;
 document.getElementById("s").addEventListener('click',()=>{
-    console.log("ooo")
+  document.getElementById("win").style.display = "none"
+  document.getElementById("gameover").style.display = "none"
     y=0;
     document.getElementById("music").src=letter.words[ra]["audioSrc"]  //arr[ra].src
     document.getElementById("music").type="audio/mpeg"
     amg=letter.words[ra]["imageSrc"];
-    var x=document.getElementById("music");
+    x=document.getElementById("music");
     
     var ind = amg.lastIndexOf("/");
     na=amg.slice(ind+1,)
-    console.log(na)
+    // console.log(na)
     
 x.play()
 y++;
 });
-for(var i=0;i<letter.words.length;i++){
-    img = document.createElement('img');
-    img.src =letter.words[i]["imageSrc"]    //arr2[i]
-    img.style.marginRight="16px"
-    img.style.marginBottom="5px"
+document.getElementById("try").addEventListener('click',()=>{
+  document.getElementById("win").style.display = "none"
+  document.getElementById("gameover").style.display = "none"
+  ra=Math.floor(Math.random()*26);
+  y=0;
+  document.getElementById("music").src=letter.words[ra]["audioSrc"]  //arr[ra].src
+  document.getElementById("music").type="audio/mpeg"
+  amg=letter.words[ra]["imageSrc"];
+  x=document.getElementById("music");
+  
+  var ind = amg.lastIndexOf("/");
+  na=amg.slice(ind+1,)
+  // console.log(na)
+  
+x.play()
+y++;
+});
+var img ;
+for(var i=0;i<letter.words.length;i++)
+{
+    img = document.createElement("img");
+    img.src = letter.words[i]["imageSrc"];
     document.getElementById('body').appendChild(img);
-    img.addEventListener("click",(event)=>{   
+    img.addEventListener("click" ,function(event){
       var x=document.getElementById("music");
       var fullPath = event.target.src;
       var indexx = fullPath.lastIndexOf("/");
       var name=fullPath.slice(indexx+1,)
-      console.log(name)
-    
+      console.log(name);
+      console.log(na);
       if(y==1){
-        if(name== na){
-            document.getElementById("music").src="audio/bravo.mp3"
-            document.getElementById("music").type="audio/mpeg"
-            x.play() }
-        else{
-            document.getElementById("music").src="../Audio/gameOver.wav"
-            document.getElementById("music").type="audio/wav"
-           x.play() }}
-    else{
-        document.getElementById("music").src="audio/try.mp3"
-        document.getElementById("music").type="audio/mpeg"
-        x.play()
+       for(var i=0;i<name.length;i++){
+        if(name[i]=='.'){
+         name =  name.slice(0,i);
+        }
+        if(na[i]=='.'){
+          na =  na.slice(0,i);
+        }
       }
-    })
+        if(na==name){
+          y=0;
+            document.getElementById("music").src="../Audio/bravo.mp3"
+            document.getElementById("music").type="audio/mpeg"
+            x.play()
+            document.getElementById("win").style.display = "block";
+            document.getElementById("gameover").style.display = "none";
+            ra=Math.floor(Math.random()*26);
+            }
+        else{
+            document.getElementById("music").src="../Audio/gameover.mp3"
+            document.getElementById("music").type="audio/mpeg"
+            x.play()
+            document.getElementById("gameover").style.display = "block"
+            document.getElementById("win").style.display = "none";
+            // console.log(na)
+            // console.log(name)
+            }
+         }
+    else {
+      document.getElementById("gameover").style.display = "none"
+            document.getElementById("win").style.display = "none";
+        document.getElementById("music").src="../Audio/tryagain.mp3"
+        document.getElementById("music").type="audio/mpeg"
+        x.play();
     }
+    })
+  }
+  console.log("nooooooo")
+
+
+
+
