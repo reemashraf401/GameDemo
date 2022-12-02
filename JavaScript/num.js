@@ -7,14 +7,11 @@ for(var i=0;i<number.Numbers.length;i++){
     Arrayofimage[i] = document.createElement("img");
     Arrayofaudio[i] = document.createElement("audio");
     Arrayofimage[i] .addEventListener("click", play(i))
-    divs.appendChild(Arrayofimage[i]);
-    divs.appendChild(Arrayofaudio[i]);
-}
-
-for(i=0;i<number.Numbers.length;i++){
+    Arrayofaudio[i].type="audio/mpeg";
     Arrayofimage[i].src = number.Numbers[i]["imageSrc"]
     Arrayofaudio[i].src = number.Numbers[i]["audioSrc"]
-    console.log(Arrayofimage[i])
+    divs.appendChild(Arrayofimage[i]);
+    divs.appendChild(Arrayofaudio[i]);
 }
 
 function play(img){
