@@ -13,7 +13,7 @@
     color: #f1f1f1;
     margin: auto;
      width: 84%; 
-     margin-top: 4%;
+     margin-top: 6%;
      margin-left: 5%;
     /* padding: 20px; */
     }
@@ -62,3 +62,20 @@ margin: auto;
     background: #ddd;
     color: black;
     }  
+    #wordd{
+        display: none;
+        position: fixed;
+        font-size: xx-large;
+        width: 300px;
+        text-align: center;
+        color:darkred;
+        height: 58px;
+        margin-top: 8%;
+        margin-left: 40.7%;
+        margin-bottom: 3%;
+        border: 2px white solid;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 6vh;
+        border-radius: 20px;
+        background-color: rgba(238, 105, 48, 0.5);
+    }

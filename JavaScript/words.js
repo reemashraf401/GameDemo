@@ -13,9 +13,11 @@ for(i=0;i<word.words.length;i++){
     divs.appendChild(Arrayofimage[i]);
     divs.appendChild(Arrayofaudio[i]);
 }
+var wordname = document.getElementById("wordd")
 function playA(img){
     return function() {
-      console.log(Arrayofimage[img]);
+      wordname.innerHTML = word.words[img]["value"];
+      wordname.style.display="block";
         Arrayofaudio[img].play();
       }
    

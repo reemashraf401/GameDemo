@@ -141,3 +141,155 @@ margin-top: 400px;
 
   position: fixed;
 }
+#animedDiv
+{
+  position: fixed;
+      animation-name: animA;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+    
+
+
+  @keyframes animA{
+     0% {left:85%;top:0px;transform: rotate(30deg);}
+     48% {left:85%;top:80% ;transform: rotate(45deg);}
+    50% {left:85%;top:80% ;transform: rotate(45deg);}
+    100% {left:85%;top:0px ;transform: rotate(30deg);}
+
+  }
+
+  #animedA{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }
+  /* ////////////// */
+  #animedDiv2
+{
+  position: fixed;
+      animation-name: animB;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+    
+
+  @keyframes animB{
+     0% {left:90%;top:0px;transform: rotate(0deg);}
+    48% {left:90%;top:80% ;transform: rotate(45deg);}
+    50% {left:90%;top:80% ;transform: rotate(45deg);}
+    100% {left:90%;top:0px;transform: rotate(0deg);}
+  }
+
+  #animedB{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }
+
+
+  /* /////// */
+  #animedDiv3
+{
+  position: fixed;
+      animation-name: animC;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+  @keyframes animC{
+     0% {left: 25%;top:0px;transform: rotate(180deg);}
+     48% {left:25%;top:80% ;transform: rotate(45deg);}
+    50% {left:25%;top:80% ;transform: rotate(45deg);}
+    100% {left:25%;top:0px ;transform: rotate(180deg);}
+
+  }
+  #animedC{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }
+  /* //////// */
+
+  #animedDiv4
+{
+  position: fixed;
+      animation-name: animD;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+
+  @keyframes animD{
+    0% {left:32%;top:0px;transform: rotate(45deg);}
+    48% {left:32%;top:80% ;transform: rotate(45deg);}
+    50% {left:32%;top:80% ;transform: rotate(45deg);}
+    100% {left:32%;top:0px ;transform: rotate(45deg);}
+  }
+
+  #animedD{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }
+  /* ////////////// */
+  #animedDiv5
+{
+  position: fixed;
+      animation-name: animE;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+
+  @keyframes animE{
+     0% {left:78%;top:0px;transform: rotate(60deg);}
+     48% {left:78%;top:80% ;transform: rotate(45deg);}
+    50% {left:78%;top:80% ;transform: rotate(45deg);}
+    100% {left:78%;top:0px ;transform: rotate(60deg);}
+  }
+
+  #animedE{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }
+  /* ////////////// */
+  #animedDiv6
+{
+  position: fixed;
+      animation-name: animF;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+
+  @keyframes animF{
+     0% {left:8%;top:0px;transform: rotate(0deg);}
+     48% {left:8%;top:80% ;transform: rotate(45deg);}
+    50% {left:8%;top:80% ;transform: rotate(45deg);}
+    100% {left:8%;top:0px ;transform: rotate(0deg);}
+  }
+
+  #animedF{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }
+  /* ////////////// */
+  #animedDiv7
+{
+  position: fixed;
+      animation-name: animG;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+}
+
+  @keyframes animG{
+     0% {left:70%;top:0px;transform: rotate(30deg);}
+     48% {left:70%;top:80% ;transform: rotate(45deg);}
+    50% {left:70%;top:80% ;transform: rotate(45deg);}
+    100% {left:70%;top:0px ;transform: rotate(30deg);}
+  }
+
+  #animedG{
+    position: fixed;
+    opacity: 0.5;
+    width:12vh;
+  }

@@ -4,28 +4,28 @@
     height: 70px;
     
     }
-    #s{
+    #choose{
         outline: none;
         border: none;
     }
-    #s:active{
+    #choose:active{
         border: 1px solid rgb(218, 140, 39);
     }
-    #s:focus{
+    #choose:focus{
         border: 1px solid rgb(218, 140, 39);
     }
     #win{
         z-index: 9;
         position: absolute;
         display: none;
-        margin-top: -17%;
+        margin-top: 23%;
         animation: move 6s ease 1 forwards;
        transition: animation 5s;
        width: 27%;
-       height: 300px;
+       height:35vh;
+       margin-top: 26%;
     }
     .myBtn {
-        
         width: 200px;
         font-size: 18px;
         padding: 10px;
@@ -33,7 +33,7 @@
         background: #000;
         color: #fff;
         cursor: pointer;
-        margin-top: 4%;
+        margin-bottom: 3%;
         }
         
         .myBtn:hover {
@@ -42,13 +42,13 @@
         }  
     @keyframes move {
         from {left: -150px;}
-        to {left: 650px;}
+        to {left: 600px;}
       }
       #gameover{
         z-index: 9;
         position: absolute;
         display: none;
-        margin-top: -15%;
+        margin-top:24%;
         animation: move 6s ease 1 forwards;
        transition: animation 5s;
        width: 27%;
@@ -69,34 +69,38 @@
     color: #f1f1f1;
     margin: auto;
      width: 84%; 
-     margin-top: 4%;
+     margin-top: 2%;
      margin-left: 8%;
     /* padding: 20px; */
     }
     img{
         z-index: 3;
+        height:5%;
         width: 5%;
         margin-left: 4%;
-         margin-bottom: 2.5%; 
-         margin-top: 2%;
+         margin-bottom: 4%; 
          cursor: pointer;
     
+    }
+    .dragdiv img{
+        height:100%;
+        width: 100%;
     }
     #backbutton{
         position: fixed;
     color: #f1f1f1;
     margin: auto;
      width: 8%; 
-     height: 20vh;
-     margin-top: 37%;
+     height: 18vh;
+     margin-top: 38%;
      margin-left: 3%;
       }
-      #nextbutton{
+      #home{
         position: fixed;
-    color: #f1f1f1;
-    margin: auto;
-     width: 8%; 
-     height: 20vh;
-     margin-top: 37%;
-     margin-left: 85%;
+        margin: auto;
+        margin-left: 80%;
+        margin-top: 41%;
+        height: 8vh;
       }
+     
+    
