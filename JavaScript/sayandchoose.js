@@ -44,7 +44,7 @@ for(var i=0;i<letter.words.length;i++)
 {
     img = document.createElement("img");
     img.src = letter.words[i]["imageSrc"];
-    document.getElementById('body').appendChild(img);
+    document.getElementById('all').appendChild(img);
     img.addEventListener("click" ,function(event){
       var x=document.getElementById("music");
       var fullPath = event.target.src;
