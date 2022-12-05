@@ -1,43 +1,41 @@
-
 import letter from './letters.json' assert {type : 'json'};
-var ra=Math.floor(Math.random()*26);
-var y=0;
-var amg;
-var na;
-var x;
-var w;
-document.getElementById("s").addEventListener('click',()=>{
+var randomaudio=Math.floor(Math.random()*26);
+var startclicked=0;
+var randomword;
+var word;
+var audio;
+document.getElementById("start").addEventListener('click',()=>{
   document.getElementById("win").style.display = "none"
   document.getElementById("gameover").style.display = "none"
-    y=0;
-    document.getElementById("music").src=letter.words[ra]["audioSrc"]  //arr[ra].src
+  startclicked=0;
+    document.getElementById("music").src=letter.words[randomaudio]["audioSrc"]  //arr[ra].src
     document.getElementById("music").type="audio/mpeg"
-    amg=letter.words[ra]["imageSrc"];
-    x=document.getElementById("music");
+    randomword=letter.words[randomaudio]["imageSrc"];
+    audio=document.getElementById("music");
     
-    var ind = amg.lastIndexOf("/");
-    na=amg.slice(ind+1,)
+    var ind = randomword.lastIndexOf("/");
+    word=randomword.slice(ind+1,)
     // console.log(na)
     
-x.play()
-y++;
+    audio.play()
+startclicked++;
 });
 document.getElementById("try").addEventListener('click',()=>{
   document.getElementById("win").style.display = "none"
   document.getElementById("gameover").style.display = "none"
-  ra=Math.floor(Math.random()*26);
-  y=0;
-  document.getElementById("music").src=letter.words[ra]["audioSrc"]  //arr[ra].src
+  randomaudio=Math.floor(Math.random()*26);
+  startclicked=0;
+  document.getElementById("music").src=letter.words[randomaudio]["audioSrc"]  //arr[ra].src
   document.getElementById("music").type="audio/mpeg"
-  amg=letter.words[ra]["imageSrc"];
-  x=document.getElementById("music");
+  randomword=letter.words[randomaudio]["imageSrc"];
+  audio=document.getElementById("music");
   
-  var ind = amg.lastIndexOf("/");
-  na=amg.slice(ind+1,)
+  var ind = randomword.lastIndexOf("/");
+  word=randomword.slice(ind+1,)
   // console.log(na)
   
-x.play()
-y++;
+  audio.play()
+startclicked++;
 });
 var img ;
 for(var i=0;i<letter.words.length;i++)
@@ -51,29 +49,29 @@ for(var i=0;i<letter.words.length;i++)
       var indexx = fullPath.lastIndexOf("/");
       var name=fullPath.slice(indexx+1,)
       console.log(name);
-      console.log(na);
-      if(y==1){
+      console.log(word);
+      if(startclicked==1){
        for(var i=0;i<name.length;i++){
         if(name[i]=='.'){
          name =  name.slice(0,i);
         }
-        if(na[i]=='.'){
-          na =  na.slice(0,i);
+        if(word[i]=='.'){
+          word =  word.slice(0,i);
         }
       }
-        if(na==name){
-          y=0;
+        if(word==name){
+          startclicked=0;
             document.getElementById("music").src="../Audio/bravo.mp3"
             document.getElementById("music").type="audio/mpeg"
-            x.play()
+            audio.play()
             document.getElementById("win").style.display = "block";
             document.getElementById("gameover").style.display = "none";
-            ra=Math.floor(Math.random()*26);
+            randomaudio=Math.floor(Math.random()*26);
             }
         else{
             document.getElementById("music").src="../Audio/gameover.mp3"
             document.getElementById("music").type="audio/mpeg"
-            x.play()
+            audio.play()
             document.getElementById("gameover").style.display = "block"
             document.getElementById("win").style.display = "none";
             // console.log(na)
@@ -85,7 +83,7 @@ for(var i=0;i<letter.words.length;i++)
             document.getElementById("win").style.display = "none";
         document.getElementById("music").src="../Audio/tryagain.mp3"
         document.getElementById("music").type="audio/mpeg"
-        x.play();
+        audio.play();
     }
     })
   }
