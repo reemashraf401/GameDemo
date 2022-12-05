@@ -50,7 +50,7 @@
         z-index: 9;
         position: absolute;
         display: none;
-        margin-top:24%;
+        margin-top:25%;
         animation: move 6s ease 1 forwards;
        transition: animation 5s;
        width: 27%;
