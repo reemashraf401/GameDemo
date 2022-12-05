@@ -19,14 +19,16 @@ margin: auto;
 }
 #hint{
     position: fixed;
-color: black;
+color: #eb5463;
 margin: auto;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
  margin-left: 40%;
- background-color: rgba(95, 158, 160,0.4);
- border: 2px black solid;
+ background-color: rgba(232, 91, 203, 0.352);
+ border: 2px rgba(232, 91, 203, 0.352) solid;
  border-radius: 20px;
  height: 30px;
- width: 300px;
+ width: 330px;
  text-align: center;
  font-size: 28px;
  padding: 10px;

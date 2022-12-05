@@ -71,15 +71,18 @@ margin: auto;
  margin-left: 3%;
   }
   .myBtn {
-    width: 25%;
+    width: 30%;
+    height:8vh;
     font-size: 4vh;
     padding: 10px;
     border: none;
-    background: #000;
+    background-color: #eb5463;
+    border-radius: 50px;
     color: #fff;
     cursor: pointer;
-    margin-top: 7%;
- margin-left: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+ margin-left: 70%;
     } 
     .myBtn:hover {
     background: #ddd;

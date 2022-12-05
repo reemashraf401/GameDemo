@@ -56,8 +56,10 @@ for(var i=0; i<len; i++){
             }
             spann.id="false";
    })
-  spann.style.backgroundColor="red";
+  spann.style.backgroundColor="#eb5463";
     spann.style.width="7%";
+    spann.style.opacity="0.8";
+    spann.style.borderRadius="30px";
     spann.style.height="12vh";
     spann.style.marginLeft="2%"
     spann.style.marginRight="2%"
