@@ -13,7 +13,7 @@
     color: #f1f1f1;
     margin: auto;
      width: 84%; 
-     margin-top: 6%;
+     margin-top: 3%;
      margin-left: 5%;
     /* padding: 20px; */
     }
@@ -26,15 +26,16 @@ img{
 }
 #hint{
     position: fixed;
-color: black;
+    color:#eb5463;
 margin: auto;
  margin-left: 40%;
  margin-top: 2.5%;
- background-color: rgba(95, 158, 160,0.4);
- border: 2px black solid;
+ background-color: rgba(232, 91, 203, 0.352);
+ border: 2px rgba(232, 91, 203, 0.352) solid;
  border-radius: 20px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
  height: 30px;
- width: 300px;
+ width: 320px;
  text-align: center;
  font-size: 28px;
  padding: 10px;
@@ -48,15 +49,17 @@ margin: auto;
  margin-left: 3%;
   }
   .myBtn {
-    width: 200px;
-    font-size: 18px;
+    width: 300px;
+    font-size: 28px;
     padding: 10px;
     border: none;
-    background: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eb5463;
+    border-radius: 30px;
     color: #fff;
     cursor: pointer;
     margin-top: 40%;
- margin-left: 75%;
+    margin-left: 75%;
     } 
     .myBtn:hover {
     background: #ddd;

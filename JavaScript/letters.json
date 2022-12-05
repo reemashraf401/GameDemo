@@ -1,4 +1,4 @@
-{"letters" : [ {"LetterName":"A","value":"A","audioSrc":"../Audio/A.mp3","imageSrc":"../Assets/LettersPic/a.png","id":1},
+{"letters" : [ {"LetterName":"A","value":"A","audioSrc":"../Audio/a.mp3","imageSrc":"../Assets/LettersPic/a.png","id":1},
 
     {"LetterName":"B","value":"B","audioSrc":"../Audio/B.mp3","imageSrc":"../Assets/LettersPic/b.png","id":2},
     {"LetterName":"C","value":"C","audioSrc":"../Audio/C.mp3","imageSrc":"../Assets/LettersPic/c.png","id":3},
@@ -31,9 +31,9 @@
     {"LetterName":"Duck","value":"Duck","audioSrc":"../Audio/duck.mp3","imageSrc":"../Assets/wordsPic/duck.png"},
     {"LetterName":"Elephant","value":"Elephant","audioSrc":"../Audio/Elephant.mp3","imageSrc":"../Assets/wordsPic/elephant.png"},
     {"LetterName":"Flower","value":"Flower","audioSrc":"../Audio/flower.mp3","imageSrc":"../Assets/wordsPic/flower.png"},
-    {"LetterName":"Grape","value":"Grape","audioSrc":"../Audio/grapes.mp3","imageSrc":"../Assets/wordsPic/grapes.png"},
+    {"LetterName":"Grapes","value":"Grapes","audioSrc":"../Audio/grapes.mp3","imageSrc":"../Assets/wordsPic/grapes.png"},
     {"LetterName":"Horse","value":"Horse","audioSrc":"../Audio/Horse.mp3","imageSrc":"../Assets/wordsPic/horse.png"},
-    {"LetterName":"Icecream","value":"Icecream","audioSrc":"../Audio/ice-cream.mp3","imageSrc":"../Assets/wordsPic/icecream.png"},
+    {"LetterName":"Ice cream","value":"Ice cream","audioSrc":"../Audio/ice-cream.mp3","imageSrc":"../Assets/wordsPic/icecream.png"},
     {"LetterName":"Jam","value":"Jam","audioSrc":"../Audio/jam.mp3","imageSrc":"../Assets/wordsPic/jam.png"},
     {"LetterName":"Key","value":"Key","audioSrc":"../Audio/key.mp3","imageSrc":"../Assets/wordsPic/key.png"},
     {"LetterName":"Ladder","value":"Ladder","audioSrc":"../Audio/ladder.mp3","imageSrc":"../Assets/wordsPic/ladder.png"},
@@ -53,6 +53,8 @@
     {"LetterName":"Zipper","value":"Zipper","audioSrc":"../Audio/zipper.mp3","imageSrc":"../Assets/wordsPic/zipper.png"}],
     "others" : [{"audioSrc":"../Audio/ABCsong.mp3"}],
     "Numbers"  : [
+        {"NumberName":"","value":"0","audioSrc":"../Audio/zero.mp3",
+        "imageSrc":"../Assets/Numcerspic/zero.png"},
         {"NumberName":"1","value":"1","audioSrc":"../Audio/one.mp3",
         "imageSrc":"../Assets/Numcerspic/1.png"},
         {"NumberName":"2","value":"2","audioSrc":"../Audio/two.mp3",
@@ -71,6 +73,8 @@
         "imageSrc":"../Assets/Numcerspic/8.png"},
         {"NumberName":"9","value":"9","audioSrc":"../Audio/nine.mp3",
         "imageSrc":"../Assets/Numcerspic/9.png"},
-        {"NumberName":"","value":"0","audioSrc":"../Audio/zero.mp3",
-        "imageSrc":"../Assets/Numcerspic/zero.png"}]
+        
+        {"NumberName":"10","value":"10","audioSrc":"../Audio/ten.mp3",
+        "imageSrc":"../Assets/Numcerspic/10.png"}
+    ]
     }

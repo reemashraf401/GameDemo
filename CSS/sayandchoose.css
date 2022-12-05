@@ -18,22 +18,42 @@
         z-index: 9;
         position: absolute;
         display: none;
-        margin-top: -17%;
+        margin-top: -11%;
         animation: move 6s ease 1 forwards;
        transition: animation 5s;
        width: 27%;
        height: 300px;
     }
+    #hint{
+        position: fixed;
+    color:#eb5463;
+    margin: auto;
+     margin-left: 35%;
+     margin-top: 2.5%;
+     background-color: rgba(232, 91, 203, 0.352);
+     border: 2px rgba(232, 91, 203, 0.352) solid;
+     border-radius: 20px;
+     height: 30px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     width: 400px;
+     text-align: center;
+     font-size: 28px;
+     padding: 10px;
+    }
     .myBtn {
         
         width: 200px;
-        font-size: 18px;
+        font-size: 25px;
         padding: 10px;
         border: none;
-        background: #000;
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #eb5463;
+        border-radius: 30px;
         color: #fff;
+        margin-left:30px;
         cursor: pointer;
-        margin-top: 4%;
+        margin-top: 2%;
         }
         
         .myBtn:hover {
@@ -48,7 +68,7 @@
         z-index: 9;
         position: absolute;
         display: none;
-        margin-top: -15%;
+        margin-top: -11%;
         animation: move 6s ease 1 forwards;
        transition: animation 5s;
        width: 27%;
@@ -69,13 +89,14 @@
     color: #f1f1f1;
     margin: auto;
      width: 84%; 
-     margin-top: 4%;
+     margin-top: 7%;
+     
      margin-left: 8%;
     /* padding: 20px; */
     }
     #all img{
         z-index: 3;
-        width: 5%;
+        width: 6%;
         margin-left: 4%;
          margin-bottom: 2.5%; 
          margin-top: 2%;
@@ -87,9 +108,9 @@
     color: #f1f1f1;
     margin: auto;
      width: 8%; 
-     height: 20vh;
-     margin-top: 37%;
-     margin-left: 3%;
+     height: 15vh;
+     margin-top: 40%;
+     margin-left: 7%;
       }
       #nextbutton{
         position: fixed;

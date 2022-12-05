@@ -23,17 +23,20 @@
        transition: animation 5s;
        width: 27%;
        height:35vh;
-       margin-top: 26%;
+       margin-top: 2%;
     }
     .myBtn {
-        width: 200px;
-        font-size: 18px;
+        width: 220px;
+        font-size: 25px;
         padding: 10px;
         border: none;
-        background: #000;
+        background: #eb5463;
         color: #fff;
         cursor: pointer;
         margin-bottom: 3%;
+
+        border-radius: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
         }
         
         .myBtn:hover {
@@ -83,8 +86,9 @@
     
     }
     .dragdiv img{
-        height:100%;
-        width: 100%;
+        height:80%;
+        width: 80%;
+        padding:7%;
     }
     #backbutton{
         position: fixed;
