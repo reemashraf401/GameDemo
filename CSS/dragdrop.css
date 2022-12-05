@@ -32,7 +32,7 @@
         background: #eb5463;
         color: #fff;
         cursor: pointer;
-        margin-bottom: 3%;
+        margin-bottom: 5%;
 
         border-radius: 30px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -46,6 +46,22 @@
         from {left: -150px;}
         to {left: 600px;}
       }
+      #hint{
+        position: fixed;
+    color:#eb5463;
+    margin: auto;
+     margin-left: 60%;
+     margin-top: 2.5%;
+     background-color: rgba(232, 91, 203, 0.352);
+     border: 2px rgba(232, 91, 203, 0.352) solid;
+     border-radius: 20px;
+     height: 30px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     width: 550px;
+     text-align: center;
+     font-size: 28px;
+     padding: 10px;
+    }
       #gameover{
         z-index: 9;
         position: absolute;
