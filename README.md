@@ -1,2 +1,4 @@
 # GameDemo
-please open this with live stream
+Live demo:
+https://reemashraf401.github.io/GameDemo/
+Please open it on laptop
